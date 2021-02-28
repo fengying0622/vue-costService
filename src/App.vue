@@ -37,7 +37,6 @@ export default {
     width: 192px;
     background: #282b3c;
     height: 100%;
-    overflow: hidden;
     &.active {
       width: 0;
     }
@@ -45,6 +44,7 @@ export default {
   .logo {
     text-align: center;
     margin: 12px;
+    overflow: hidden;
     img {
       width: 40px;
     }

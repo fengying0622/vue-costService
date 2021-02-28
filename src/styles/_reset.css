@@ -153,6 +153,7 @@ body {
   font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", "微软雅黑",
     sans-serif;
   color: #282b3c;
+  background: #f0eeee;
 }
 body {
   line-height: 1;
@@ -161,6 +162,9 @@ body {
 }
 html {
   overflow-y: scroll;
+}
+* {
+  box-sizing: border-box;
 }
 
 /*清除浮动*/

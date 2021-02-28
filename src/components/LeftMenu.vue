@@ -93,6 +93,7 @@ export default {
 .leftMenu {
   position: relative;
   height: 100%;
+  overflow: hidden;
   .el-menu {
     border-right: none;
     .el-menu-item,
