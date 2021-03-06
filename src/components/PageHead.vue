@@ -1,7 +1,7 @@
 <template>
   <div class="pageHead">
     <div class="title">
-      <i v-if="isBack" class="el-icon-arrow-left" @click="backRoute"></i>
+      <i v-if="isBack" class="el-icon-arrow-left"></i>
       <span>{{ title }}</span>
     </div>
     <slot></slot>
@@ -23,11 +23,7 @@ export default {
   data() {
     return {};
   },
-  methods: {
-    backRoute() {
-      this.$emit("backClick");
-    }
-  }
+  methods: {}
 };
 </script>
 

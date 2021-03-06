@@ -20,6 +20,11 @@ export default new Router({
       component: ()=>import('@/views/Source')
     },
     {
+      path: '/detail',
+      name: 'detail',
+      component: ()=>import('@/views/Detail')
+    },
+    {
       path: '/about',
       name: 'about',
       component: ()=>import('@/views/About')
